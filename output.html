@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<h1>Prediction</h1>
+{{ prediction_ }}
+
+  {% if prediction_ == 1 %}
+    <h1>Positive review  {{ prediction_ }}</h1>
+
+{% elif prediction_ == 0 %}
+    <h1> Negative review {{ prediction_ }} </h1>
+{%endif%} 
+
+
+<body>
+    
+</body>
+</html>
